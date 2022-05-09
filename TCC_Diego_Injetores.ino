@@ -5,8 +5,8 @@
 #define INJ3 11
 #define INJ4 10
 
-#define LEFT 14
-#define ENTER 15
+#define OP1 14
+#define OP2 15
 
 #define DRENO1 17
 #define DRENO2 18
