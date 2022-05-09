@@ -14,8 +14,6 @@
 #define DRENO4 7
 
 //////////////////////////Pinos Display//////////////////////////////
-
-#define pinBackLight 7
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 ////////////////////////////////////////////////////////////////////
 
@@ -42,8 +40,6 @@ void setup()
   pinMode(OP1, INPUT);
   pinMode(OP2, INPUT);
   pinMode(sensor, INPUT);
-  pinMode(pinBackLight, OUTPUT);
-  digitalWrite(pinBackLight, HIGH);
   
   digitalWrite(INJ1, 0);
   digitalWrite(INJ2, 0);
